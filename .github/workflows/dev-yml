@@ -25,8 +25,7 @@ jobs:
         run: npm ci
 
       - name: 🛠️ Build Angular App
-        run: |
-          run: npm run build -- --base-href=/angular19/
+        run: npm run build -- --base-href=/angular19/
 
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
